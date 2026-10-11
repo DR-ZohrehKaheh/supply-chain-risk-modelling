@@ -1,0 +1,47 @@
+{
+  "project_name": "RAHT-RH-CRC",
+  "full_name": "Relational temporal model configuration",
+  "dataset": "SupplyGraph",
+  "primary_task": "3-day anomaly-based disruption onset early warning",
+  "secondary_task": "next-day anomaly-based disruption onset early warning",
+  "disruption_definition": {
+    "type": "multivariate operational anomaly onset proxy",
+    "anomaly_threshold_source": "training period only",
+    "anomaly_quantile": 0.975,
+    "minimum_normal_days_before_onset": 3
+  },
+  "temporal_lookback_days": 14,
+  "primary_relations": [
+    "product_group",
+    "storage_location"
+  ],
+  "secondary_ablation_relations": [
+    "plant",
+    "product_subgroup"
+  ],
+  "primary_metric": "average_precision",
+  "secondary_metrics": [
+    "recall_at_top_10_percent",
+    "precision_at_top_10_percent",
+    "event_level_recall",
+    "false_alarms_per_100_node_days",
+    "mean_warning_lead_time"
+  ],
+  "primary_hypothesis": "Compare configured model variants",
+  "primary_statistical_test": "descriptive paired date-block bootstrap interval",
+  "multiple_testing_correction": "none; all comparisons are descriptive and no superiority decisions are made",
+  "random_seeds": [
+    11,
+    23,
+    37,
+    42,
+    59,
+    71,
+    83,
+    97,
+    109,
+    127
+  ],
+  "test_policy": "Reserved chronological evaluation partition; do not tune using evaluation outputs",
+  "primary_model": "RAHT-RH"
+}
