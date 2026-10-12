@@ -39,3 +39,7 @@ DOI preparation added a BibTeX export and a Zenodo metadata/rights record on 12 
 ## DOI publication — 12 October 2026
 
 Archived snapshot `c78a6a50e8a969c746d52740c821486357f18eab` was published as `snapshot-c78a6a5` in [Zenodo](https://zenodo.org/records/23312621), DOI `10.5281/zenodo.23312621`. The public record, both creator names, archive checksum and custom rights notice were checked. Citation files and README now identify this archived version. The original archive retains its pre-DOI citation files. Source code, dependency pins and scientific execution scope are unchanged; no training was rerun. See [ZENODO_DEPOSIT.md](ZENODO_DEPOSIT.md). Documentation checksums were refreshed.
+
+## Portfolio presentation review — 12 October 2026
+
+The README navigation, contribution summary, citation guidance and issue-reporting instructions were reviewed for clarity and consistency with the existing rights record. Documentation links and citation identifiers were checked. Source code, dependencies, configuration and the archived DOI version are unchanged; no training or scientific validation was rerun. `SHA256SUMS.txt` was refreshed for the current files.
