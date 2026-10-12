@@ -47,9 +47,9 @@ The README references SupplyGraph snapshot `0e6d010e256ee08e34ab6bef5a111ef1c758
 
 The existing attribution discloses AI-assisted preparation. AI assistance does not clear pre-existing student or third-party rights. Record which tools and terms applied, which changes were accepted, and the responsible human reviewer where that evidence exists; do not invent missing edit history or treat an AI service as a consenting human contributor.
 
-## DOI readiness
+## DOI archive
 
-The maintainer requested a DOI on 12 October 2026. [ZENODO_DEPOSIT.md](ZENODO_DEPOSIT.md) contains prepared metadata for a manual software deposit, with both contributors credited and an explicit custom rights notice preserving the current publication-only status. No DOI has yet been assigned by this workflow.
+The maintainer requested a DOI on 12 October 2026. The software snapshot `c78a6a50e8a969c746d52740c821486357f18eab` was published in [Zenodo](https://zenodo.org/records/23312621) on that date as version `snapshot-c78a6a5`, DOI [10.5281/zenodo.23312621](https://doi.org/10.5281/zenodo.23312621). Both contributors are credited. An explicit custom rights notice preserves the current publication-only status and grants no general reuse licence. See [ZENODO_DEPOSIT.md](ZENODO_DEPOSIT.md) for the deposit and verification record.
 
 A DOI deposit does not require adopting MIT: Zenodo supports custom rights descriptions. The deposit must be authorised for archival publication and must not expand downstream reuse permissions. A DOI identifies a record; it does not establish ownership. A reserved DOI becomes registered only when the record is published. [7, 9, 10]
 

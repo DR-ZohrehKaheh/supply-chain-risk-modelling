@@ -62,8 +62,8 @@ The maintainer requests scholarly citation and retention of contributor credit. 
 
 For authorised use in research, publications or presentations, please cite both contributors:
 
-Kaheh, Z., & Zhang, Y. (2026). *Temporal and Graph Models for Supply-Chain Anomaly Ranking* [Computer software]. GitHub. https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling
+Kaheh, Z., & Zhang, Y. (2026). *Temporal and Graph Models for Supply-Chain Anomaly Ranking* (Version snapshot-c78a6a5) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23312621
 
-Citation formats: [CITATION.cff](CITATION.cff) and [BibTeX](CITATION.bib). The current citation identifies code snapshot [`278ce6c`](https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling/tree/278ce6c0003876555cd6e39de0a68ca88bc1e321); cite the exact commit or released version you used. This citation credits the documented collaboration and does not assign copyright or constitute student approval of a licence.
+Citation formats: [CITATION.cff](CITATION.cff) and [BibTeX](CITATION.bib). The current citation identifies archived version `snapshot-c78a6a5`, source commit [`c78a6a5`](https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling/tree/c78a6a50e8a969c746d52740c821486357f18eab); cite the exact commit or archived version you used. This citation credits the documented collaboration and does not assign copyright or constitute student approval of a licence.
 
-No DOI has yet been assigned by this workflow. [Prepared Zenodo metadata](ZENODO_DEPOSIT.md) supports a DOI deposit with the current publication-only rights status. A future registered DOI will be added here and to the citation files. No unverified article DOI or affiliation has been added.
+Archived version DOI: [10.5281/zenodo.23312621](https://doi.org/10.5281/zenodo.23312621). [Zenodo record](https://zenodo.org/records/23312621) and [deposit verification](ZENODO_DEPOSIT.md). Published 12 October 2026 with the existing publication-only rights status; the DOI grants no reuse permission. No unverified article DOI or affiliation has been added.
