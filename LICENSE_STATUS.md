@@ -49,9 +49,11 @@ The existing attribution discloses AI-assisted preparation. AI assistance does n
 
 ## DOI readiness
 
-No DOI is asserted here, and no GitHub release existed at review. After rights clearance, enable this repository in Zenodo, confirm its metadata and exact licence, then publish a reviewed GitHub release for DOI registration. Add the issued DOI to CITATION.cff and README. A DOI identifies an archived object; it is not evidence of ownership. [7]
+The maintainer requested a DOI on 12 October 2026. [ZENODO_DEPOSIT.md](ZENODO_DEPOSIT.md) contains prepared metadata for a manual software deposit, with both contributors credited and an explicit custom rights notice preserving the current publication-only status. No DOI has yet been assigned by this workflow.
 
-**Do not trigger Zenodo archiving while the licence is unresolved.** Its GitHub integration can fall back to a default licence when none is specified; the deposit interface defaults to CC-BY-4.0. The omitted licence field in CITATION.cff is not consent to that default. [8, 9]
+A DOI deposit does not require adopting MIT: Zenodo supports custom rights descriptions. The deposit must be authorised for archival publication and must not expand downstream reuse permissions. A DOI identifies a record; it does not establish ownership. A reserved DOI becomes registered only when the record is published. [7, 9, 10]
+
+**Do not use automatic GitHub archiving with an unspecified licence.** Zenodo's integration can fall back to a default licence; the deposit interface defaults to CC-BY-4.0. Use the prepared custom rights notice and verify the record before publication. [8, 9]
 
 ## Sources
 
@@ -64,5 +66,6 @@ No DOI is asserted here, and no GitHub release existed at review. After rights c
 7. [Zenodo: Archive a GitHub release](https://help.zenodo.org/docs/github/archive-software/github-upload/)
 8. [Zenodo: How a GitHub software licence is selected](https://support.zenodo.org/help/en-gb/24-github-integration/149-how-to-specify-a-license-for-a-software-record-on-github)
 9. [Zenodo: Licences and rights](https://help.zenodo.org/docs/deposit/describe-records/licenses/)
+10. [Zenodo: DOI reservation and registration](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/)
 
 These sources were checked on 12 October 2026. This is an evidence and workflow record, not a legal determination.

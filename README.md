@@ -64,6 +64,6 @@ For authorised use in research, publications or presentations, please cite both 
 
 Kaheh, Z., & Zhang, Y. (2026). *Temporal and Graph Models for Supply-Chain Anomaly Ranking* [Computer software]. GitHub. https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling
 
-Machine-readable metadata: [CITATION.cff](CITATION.cff). The current citation identifies code snapshot [`278ce6c`](https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling/tree/278ce6c0003876555cd6e39de0a68ca88bc1e321); cite the exact commit or released version you used. This citation credits the documented collaboration and does not assign copyright or constitute student approval of a licence.
+Citation formats: [CITATION.cff](CITATION.cff) and [BibTeX](CITATION.bib). The current citation identifies code snapshot [`278ce6c`](https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling/tree/278ce6c0003876555cd6e39de0a68ca88bc1e321); cite the exact commit or released version you used. This citation credits the documented collaboration and does not assign copyright or constitute student approval of a licence.
 
-No DOI has been registered by this review. See the [DOI readiness note](LICENSE_STATUS.md#doi-readiness) before archiving a release. No unverified publication title, article DOI or affiliation has been added.
+No DOI has yet been assigned by this workflow. [Prepared Zenodo metadata](ZENODO_DEPOSIT.md) supports a DOI deposit with the current publication-only rights status. A future registered DOI will be added here and to the citation files. No unverified article DOI or affiliation has been added.
