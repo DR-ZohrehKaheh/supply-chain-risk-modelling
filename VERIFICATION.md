@@ -31,3 +31,5 @@ Repository documentation was reviewed on 11 October 2026 for consistency with th
 ## Rights and citation documentation — 12 October 2026
 
 A documentation-only review added the reuse-status notice, contributor-rights register and software citation, and clarified the contribution account. Executable sources, dependencies and configuration are unchanged from commit `278ce6c0003876555cd6e39de0a68ca88bc1e321`. No training or scientific validation was rerun for this update. Existing execution receipts do not establish publication or licensing authority. `SHA256SUMS.txt` was refreshed for the current files, excluding itself.
+
+The subsequent clarification on 12 October 2026 records publication-only permission and the maintainer's acceptance of standard notice retention with a scholarly citation request. MIT remains conditional and was not added. This follow-up changes documentation and its checksums only.

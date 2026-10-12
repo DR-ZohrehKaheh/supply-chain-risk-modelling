@@ -12,10 +12,18 @@ The maintainer reports that these projects were designed from her earlier work, 
 
 No executed contributor licensing consent or applicable institutional agreement was available in the reviewed repository records. This is a statement about the evidence reviewed, not a finding that no agreement exists. Publication authority and authority to grant an open-source licence need separate confirmation. Supervision, project design, uploading a file and later development do not by themselves identify every rights holder. [3]
 
+## Maintainer clarification — 12 October 2026
+
+The maintainer has confirmed that the existing permission for the student's code covers **public publication only**. Permission for downstream modification, redistribution and commercial reuse has not been confirmed. This records the maintainer's stated permission scope; no executed student or institutional consent was reviewed.
+
+The maintainer has also confirmed that retaining contributor names and copyright/licence notices, together with a request for scholarly citation, meets her credit requirement. A mandatory scholarly-citation clause is not requested.
+
+**Decision:** retain the current unlicensed reuse status. MIT is the intended future licence, conditional on the necessary non-exclusive authorisations and third-party compatibility review. Do not add a MIT LICENSE or MIT metadata until those conditions are met. The existing citation credits both contributors and grants no reuse rights.
+
 ## Review scope and evidence
 
 - Reviewed all 17 files at the code snapshot above, including source files, dependency declarations, README, ATTRIBUTION and VERIFICATION.
-- The accessible history had two commits, a single `main` branch, and no issues, pull requests or GitHub releases. The initial commit contained only README.
+- At the initial audit, the accessible history had two commits, a single `main` branch, and no issues, pull requests or GitHub releases. The initial commit contained only README.
 - No root or nested licence file, source-level licence grant, or contributor consent was found in that snapshot. Source archives identified in ATTRIBUTION were not part of this audit.
 - Later changes lack a complete per-person history. A notice scan is not a complete provenance or legal audit. The scope and ownership of earlier work, later edits and any copied snippets remain to be mapped.
 
@@ -23,9 +31,9 @@ See [CONTRIBUTOR_RIGHTS.md](CONTRIBUTOR_RIGHTS.md) for the evidence register and
 
 ## Recommended route, subject to clearance
 
-**MIT is the proposed default for original software and accompanying technical documentation, only after all required rights and compatibility checks are resolved. It has not been adopted.** MIT permits modification, redistribution and commercial reuse while requiring retention of its copyright and permission notice in copies or substantial portions. It does not require a scholarly citation in every paper or every use. [4]
+**MIT is the intended future licence for original software and accompanying technical documentation, only after all required rights and compatibility checks are resolved. It has not been adopted.** MIT permits modification, redistribution and commercial reuse while requiring retention of its copyright and permission notice in copies or substantial portions. It does not require a scholarly citation in every paper or every use. [4]
 
-The requested academic citation is in [CITATION.cff](CITATION.cff) and README. It credits both Dr. Zohreh Kaheh and Yuyang Zhang; citation metadata does not decide ownership. If mandatory scholarly citation is a non-negotiable legal condition, do not describe an altered licence as MIT. Define that condition with qualified IP advice before choosing a licence.
+The requested academic citation is in [CITATION.cff](CITATION.cff) and README. It credits both Dr. Zohreh Kaheh and Yuyang Zhang; citation metadata does not decide ownership. The maintainer accepts a citation request alongside standard notice retention; no additional mandatory-citation condition will be appended to MIT.
 
 Apache-2.0 is an alternative if an express contributor patent grant is desired and can be authorised; its notice duties also do not impose a universal scholarly-citation requirement. Creative Commons does not recommend its standard licences for software. [5, 6]
 
