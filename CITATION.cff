@@ -1,0 +1,21 @@
+# Citation metadata is not a reuse licence. See LICENSE_STATUS.md.
+# No DOI or software licence is asserted while clearance is pending.
+cff-version: 1.2.0
+type: software
+message: "For authorised use of this software, please cite both contributors using this record. Citation does not grant permission to reuse the code."
+title: "Temporal and Graph Models for Supply-Chain Anomaly Ranking"
+authors:
+  - family-names: "Kaheh"
+    given-names: "Zohreh"
+  - family-names: "Zhang"
+    given-names: "Yuyang"
+repository-code: "https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling"
+url: "https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling"
+commit: "278ce6c0003876555cd6e39de0a68ca88bc1e321"
+# Date the cited code snapshot was made public; not a tagged GitHub release.
+date-released: "2026-10-11"
+abstract: "Python and PyTorch workflow for temporal, graph and hypergraph comparison in supply-chain anomaly ranking."
+keywords:
+  - "supply chain"
+  - "anomaly ranking"
+  - "graph learning"

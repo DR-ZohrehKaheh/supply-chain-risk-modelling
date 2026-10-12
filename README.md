@@ -2,10 +2,12 @@
 
 A Python and PyTorch workflow for ranking product-level operational anomalies from time-series and relational data. The project compares temporal, graph and hypergraph models through a documented training, checkpoint-freezing and chronological evaluation process.
 
+> **Reuse status:** No repository-wide software licence has been granted. See [LICENSE_STATUS.md](LICENSE_STATUS.md). The execution instructions below describe the workflow; they do not grant reuse permission.
+
 **Project supervisor: Dr. Zohreh Kaheh.**  
 **Undergraduate collaborator: Yuyang Zhang.**
 
-Dr. Kaheh provided instruction in the project concepts and methods, supervised implementation and guided improvements to the student’s initial code.
+Dr. Kaheh designed the project based on her earlier work, provided the initial design and implementation teaching, supervised the student's initial implementation, and subsequently developed the code further. This contribution description reflects the maintainer's account.
 
 ## Technical focus
 
@@ -53,3 +55,13 @@ The prediction target is a constructed operational-anomaly label. Results should
 ## Verification and contributions
 
 See [VERIFICATION.md](VERIFICATION.md) for the tested execution scope and [ATTRIBUTION.md](ATTRIBUTION.md) for supervision and student contributions. This repository contains code and technical documentation only.
+
+## Citation
+
+For authorised use in research, publications or presentations, please cite both contributors:
+
+Kaheh, Z., & Zhang, Y. (2026). *Temporal and Graph Models for Supply-Chain Anomaly Ranking* [Computer software]. GitHub. https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling
+
+Machine-readable metadata: [CITATION.cff](CITATION.cff). The current citation identifies code snapshot [`278ce6c`](https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling/tree/278ce6c0003876555cd6e39de0a68ca88bc1e321); cite the exact commit or released version you used. This citation credits the documented collaboration and does not assign copyright or constitute student approval of a licence.
+
+No DOI has been registered by this review. See the [DOI readiness note](LICENSE_STATUS.md#doi-readiness) before archiving a release. No unverified publication title, article DOI or affiliation has been added.
