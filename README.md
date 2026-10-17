@@ -71,3 +71,7 @@ Please retain contributor credit. Citation and DOI registration do not grant reu
 ## Questions and corrections
 
 For technical questions or documentation corrections, [open an issue](https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling/issues) with the version or commit, environment, command and a minimal error report. Do not include private datasets, credentials or unpublished results. Discuss the scope and permissions of proposed code contributions with the maintainer first; [CONTRIBUTOR_RIGHTS.md](CONTRIBUTOR_RIGHTS.md) describes the required record.
+
+## Continuous checks
+
+[GitHub Actions](https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling/actions/workflows/checks.yml) runs the existing dataset-independent checks on Python 3.12 and Ubuntu. This covers utility tests or synthetic native/model checks, not the complete data-dependent research pipeline or scientific conclusions. The workflow does not publish generated research outputs.
