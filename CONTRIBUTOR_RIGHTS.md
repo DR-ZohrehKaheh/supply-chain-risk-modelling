@@ -1,65 +1,11 @@
-# Contributor rights and permission record
+# Contributor credit and permissions
 
-Status: **MIT licensing permission pending; publication-only permission reported by the maintainer**. Last reviewed: 12 October 2026.
+Current contributors and their roles are documented in [ATTRIBUTION.md](ATTRIBUTION.md). Citation details are provided in [CITATION.cff](CITATION.cff).
 
-This register records attribution separately from ownership and permission. It does not transfer copyright, certify title, or grant a licence. No entry below is an executed consent.
+The project is available for public viewing and scholarly citation without a general software reuse licence. See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the current terms.
 
-## Evidence register
+## Proposed contributions
 
-| Contribution or material | Available evidence | Rights/permission status |
-| --- | --- | --- |
-| Dr. Zohreh Kaheh: earlier project basis, initial design, implementation teaching, supervision and subsequent code development | Maintainer's account, updated on 12 October 2026; ATTRIBUTION | Maintainer confirms the existing permission for student code is limited to public publication. Exact code scope, applicable employment rights and permission for a downstream MIT grant remain to be documented. |
-| Yuyang Zhang: initial implementation developed under supervision | Existing ATTRIBUTION, based on the supervisor's account | Maintainer reports public-publication permission only. Student's file-level confirmation and permission covering MIT modification, redistribution and commercial reuse are not recorded in the reviewed evidence. No assignment is assumed. |
-| Subsequent edits and AI-assisted preparation | ATTRIBUTION explicitly notes incomplete per-person edit history | Map surviving contributions and provenance; human or institutional authorisation cannot be inferred from AI assistance. |
-| Third-party code, dependencies and external inputs | Source/dependency review and README | See LICENSE_STATUS; compatibility and any copied-material permissions remain to be resolved. |
+Before submitting additional code or data, discuss the scope and publication terms with the maintainer. Identify the source of third-party material and retain its required notices. Contributors should submit only material they are authorised to share.
 
-Source archive named in existing attribution: `ESM_1_Code_and_Verified_Results.zip`. The archive is not publicly included and was not reviewed for rights in this audit.
-
-### Scope to map
-
-Code/configuration paths requiring a contribution-to-rights mapping:
-
-`build_supplygraph_disruption_events.py`, `01_build_raht_training_package.py`, `02_train_self_hazard_baseline.py`, `03_train_raht_residual_hazard.py`, `03b_train_genuine_hgnn_baselines.py`, `03c_freeze_hgnn_extension.py`, `03d_evaluate_hgnn_extension_test.py`, `03e_train_credible_mlp_gnn_baselines.py`, `03f_freeze_credible_baselines.py`, `03g_evaluate_credible_baselines_test.py`, and `00_raht_protocol_locked.json`.
-
-Also account for technical documentation, wrappers, tests, dependency declarations and any earlier project code incorporated into these files. The paths above do **not** attribute every line to either named person. Preserve the original material and evidence privately; do not recreate a fictitious commit history.
-
-## Clearance checklist
-
-- [ ] Identify each copyright holder or authorised licensor, including any relevant institution; confirm the applicable student, employment, joint-programme, funding and project agreements.
-- [ ] Tie each permission to repository URL, commit or file hashes, covered paths and exclusions, including earlier work and later edits.
-- [x] Record the maintainer's clarification: current student-code permission covers public publication only. This records her statement, not review of an executed agreement.
-- [ ] Document permission to distribute the covered contributions under the standard MIT License, including modification, redistribution and commercial reuse.
-- [ ] Record the relevant student's contribution confirmation; where rights are held by an institution, obtain approval from its authorised representative as needed.
-- [ ] Resolve third-party code/data provenance and licence compatibility. Preserve required upstream notices.
-- [ ] Agree the accurate attribution, contributor names and copyright notices without making the supervisor sole owner by default.
-- [x] Maintainer confirmed that contributor-name and copyright/licence-notice retention plus a scholarly citation request is sufficient. No mandatory academic-citation clause is requested.
-- [ ] Record archival permission before a Zenodo deposit, then publish a scoped licensing decision.
-
-Do not accept silence, assessment submission, a GitHub upload, academic coauthorship or supervision as a substitute for the required permission. Do not merge new code contributions without agreed contribution terms while licensing is unresolved.
-
-## Proposed permission record — draft, not executed
-
-Use a separate completed record for each relevant rights holder. A contributor can confirm facts about their work, but cannot grant rights held by their university, employer or another party.
-
-- Record ID:
-- Repository: https://github.com/DR-ZohrehKaheh/supply-chain-risk-modelling
-- Contributor / rights holder:
-- Capacity and basis of authority:
-- Covered commit, paths and hashes:
-- Pre-existing material and exclusions:
-- Publication on GitHub: approved / not approved / limited (specify)
-- Exact public software licence and authoritative text link:
-- Archival deposit (including Zenodo): approved / not approved / limited (specify)
-- Third-party material, licences and notices:
-- Applicable institutional/contractual approval, or documented reason none is required:
-- Agreed public attribution:
-- Dated affirmative consent and private evidence location:
-- Reviewer and review date:
-
-Suggested wording **for review and affirmative completion** for the intended MIT licence; this draft is not a grant:
-
-> I confirm that I hold, or am authorised to license, the rights identified in the completed record above. For that specified material, I authorise Dr. Zohreh Kaheh to publish it in the named GitHub repository and distribute it under the standard MIT License linked in this record. I understand that MIT permits modification, redistribution and commercial reuse, subject to its notice condition, and does not require a scholarly citation for every use. This is a non-exclusive authorisation, not a transfer of copyright. It excludes the third-party material and rights expressly listed above. My decision about a Zenodo archival deposit is recorded separately.
-
-Keep executed emails, agreements, signatures and private contact details outside the public repository. Publish only a minimal verified summary: record ID, covered paths/version, approved licence, approval date, attribution and any exclusions. Never mark a pending entry approved without supporting evidence. Any later licence change outside the recorded authorisation needs a fresh rights check.
-
-See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the audit and sources.
+Any separately agreed permissions should specify the material, version and permitted uses. Keep private agreements, signatures and personal contact information outside the public repository.

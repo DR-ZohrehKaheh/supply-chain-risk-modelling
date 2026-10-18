@@ -2,7 +2,7 @@
 # The DOI identifies an archived version; no software reuse licence is granted.
 cff-version: 1.2.0
 type: software
-message: "For authorised use of this software, please cite both contributors using this record. Citation does not grant permission to reuse the code."
+message: "Please cite this archived software version and credit both contributors. See LICENSE_STATUS.md for reuse terms."
 title: "Temporal and Graph Models for Supply-Chain Anomaly Ranking"
 authors:
   - family-names: "Kaheh"
@@ -21,3 +21,4 @@ keywords:
   - "supply chain"
   - "anomaly ranking"
   - "graph learning"
+
