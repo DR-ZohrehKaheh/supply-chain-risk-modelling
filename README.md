@@ -1,6 +1,6 @@
 # Temporal and Graph Models for Supply-Chain Anomaly Ranking
 
-[Run and inputs](#environment-and-inputs) · [Scope](#scope) · [Citation](#citation) · [Contributions](ATTRIBUTION.md) · [Reuse status](LICENSE_STATUS.md)
+[Run and inputs](#environment-and-inputs) · [Published scope](#scope-of-the-published-version) · [Citation](#citation) · [Contributions](ATTRIBUTION.md) · [Reuse status](LICENSE_STATUS.md)
 
 A Python and PyTorch workflow for ranking product-level operational anomalies from time-series and relational data. The project compares temporal, graph and hypergraph models through a documented training, checkpoint-freezing and chronological evaluation process.
 
@@ -50,9 +50,9 @@ Training uses the configured search, seeds, epochs and early stopping. The CPU t
 
 Generated folders, predictions and checkpoints must not be committed. Keep `00_raht_protocol_locked.json` unchanged during a run: downstream stages verify its hash. If configuration changes, rebuild the complete workflow from the first stage.
 
-## Scope
+## Scope of the published version
 
-The prediction target is a constructed operational-anomaly label. Results should be interpreted as exploratory anomaly-ranking comparisons. The held-out split had been used in earlier project work, so these runs do not constitute a new, untouched confirmatory evaluation. Operational disruption detection, risk calibration and causal effects have not been established. No model scores, research figures, paper text or previous fitted objects are included in this repository.
+The prediction target is a constructed operational-anomaly label. Results should be interpreted as exploratory anomaly-ranking comparisons. The held-out split had been used in earlier project work, so these runs do not constitute a new, untouched confirmatory evaluation. Validation of operational disruption detection, calibrated risk probabilities and causal effects is outside the scope of this published version. No model scores, research figures, paper text or previous fitted objects are included in this repository.
 
 ## Verification and contributions
 

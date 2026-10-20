@@ -8,7 +8,7 @@ An independent check confirmed finite, bounded prediction probabilities and reco
 
 Supply-chain execution used Python 3.12.14 and PyTorch 2.14.1+cpu with one CPU thread. No training outputs, fitted checkpoints or research metrics are distributed.
 
-Verification covers the documented execution path and supplied inputs; it is not certification of research findings or all possible inputs.
+The published verification scope covers the documented execution path and supplied inputs. Independent certification of research findings and validation across other inputs are outside that scope.
 
 ## Private execution receipts
 
